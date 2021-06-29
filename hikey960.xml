@@ -20,7 +20,8 @@
 
         <!-- Misc gits -->
         <project path="buildroot"             name="buildroot/buildroot.git"                  revision="refs/tags/2021.02" clone-depth="1" />
-        <project path="edk2"                  name="96boards-hikey/edk2.git"                  revision="77326b5a153513c826d5a50363eace6ef6b59413" />
+        <project path="edk2"                  name="tianocore/edk2.git"                       revision="refs/tags/edk2-stable202105" clone-depth="1" sync-s="true" />
+        <project path="edk2-platforms"        name="tianocore/edk2-platforms.git"             revision="086a3a3ce6c42c859ee5943eb2c4b6edcefdc241" />
         <project path="grub"                  name="grub.git"                                 revision="refs/tags/grub-2.02" clone-depth="1" remote="savannah" />
         <project path="linux"                 name="linaro-swg/linux.git"                     revision="optee" clone-depth="1" />
         <project path="l-loader"              name="96boards-hikey/l-loader.git"              revision="a0c5d726cd2a9984f1cb98f0123969cfccce990d" />
